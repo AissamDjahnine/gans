@@ -50,16 +50,6 @@ The dataset consists of 1144 images of size 1024 X 1024 at 10X resolution with t
 
 You can browse the data using this link : [Osteosarcoma data from UT Southwestern/UT Dallas](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52756935), to download the data that you can use directly: [Osteosarcoma data](https://drive.google.com/open?id=1mN7Wqbo1FOchtPITS83xkDu-j6C6d74q)
 
-## Other datasets: 
-
-We tried to use the model on other datasets to evaluate its performance on non-medical images.Giben below the dataset we used for this experiment 
-
-### UTKFace dataset
-
-UTKFace dataset is a large-scale face dataset with long age span (range from 0 to 116 years old). The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity. The images cover large variation in pose, facial expression, illumination, occlusion, resolution, etc. This dataset could be used on a variety of tasks, e.g., face detection, age estimation, age progression/regression, landmark localization, etc.
-
-In our case , we'll be using our generative model to try to learn data distrubution and generate more look alike images.
-You see In Results sbelow the results we obtained after training (500 epochs)
 
 ## Usage
 
